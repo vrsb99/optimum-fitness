@@ -4,7 +4,6 @@ import { Stack, Typography } from '@mui/material';
 import Icon from '../assets/icons/gym.png'
 
 const BodyPart = ({item, setBodyPart, bodyPart}) => {
-    console.log(item.item);
     return (
         <Stack
             type="button"
